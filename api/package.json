@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js",
+    "test": "jest --collectCoverage"
+  },
+  "keywords": [],
+  "author": "eikefab",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "knex": "^0.95.15",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.6"
+  }
+}
