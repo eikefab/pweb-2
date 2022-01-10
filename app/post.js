@@ -19,7 +19,7 @@ async function postFormDataAsJson({ url, formData }) {
         const errorMessage = await response.text();
         throw new Error(errorMessage);
     }
-    window.location.href = "sucess.html";
+    window.location.href = "success.html";
     return response.json();
 }
 
