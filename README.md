@@ -17,6 +17,11 @@ A API foi construída usando Express como framework, Knex para construção das 
 
 O objetivo principal do projeto é simples: servir para controle de usuários, como é possível ver [aqui](https://github.com/eikefab/pweb-2/blob/master/api/src/controller.js).
 
+# Links
+
+ * [API](https://pweb2-ifal.herokuapp.com/)
+ * [Site](https://usermanagement-pweb2.netlify.app/)
+
 # Screenshots da aplicação em funcionamento
 
-<b>Em breve</b>
+<img src="https://i.imgur.com/f8BIsdp.png"/>
